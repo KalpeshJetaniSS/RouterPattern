@@ -1,6 +1,6 @@
 //
 //  Coordinator.swift
-//  CoorinatorPattern
+//  RouterPattern
 //
 //  Created by Kalpesh on 23/02/24.
 //

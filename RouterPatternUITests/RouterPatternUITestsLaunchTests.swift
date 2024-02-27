@@ -1,13 +1,13 @@
 //
-//  CoorinatorPatternUITestsLaunchTests.swift
-//  CoorinatorPatternUITests
+//  RouterPatternUITestsLaunchTests.swift
+//  RouterPatternUITests
 //
 //  Created by Kalpesh on 23/02/24.
 //
 
 import XCTest
 
-final class CoorinatorPatternUITestsLaunchTests: XCTestCase {
+final class RouterPatternUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

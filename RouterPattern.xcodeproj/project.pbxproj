@@ -7,27 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		045D978F2B8875900002CC64 /* CoorinatorPatternApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D978E2B8875900002CC64 /* CoorinatorPatternApp.swift */; };
-		045D97912B8875900002CC64 /* AppCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D97902B8875900002CC64 /* AppCoordinatorView.swift */; };
+		045D978F2B8875900002CC64 /* RouterPatternApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D978E2B8875900002CC64 /* RouterPatternApp.swift */; };
 		045D97932B8875910002CC64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045D97922B8875910002CC64 /* Assets.xcassets */; };
 		045D97972B8875910002CC64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045D97962B8875910002CC64 /* Preview Assets.xcassets */; };
-		045D97A12B8875920002CC64 /* CoorinatorPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D97A02B8875920002CC64 /* CoorinatorPatternTests.swift */; };
-		045D97AB2B8875920002CC64 /* CoorinatorPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D97AA2B8875920002CC64 /* CoorinatorPatternUITests.swift */; };
-		045D97AD2B8875920002CC64 /* CoorinatorPatternUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D97AC2B8875920002CC64 /* CoorinatorPatternUITestsLaunchTests.swift */; };
-		045D97BE2B88CFE40002CC64 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D97BD2B88CFE40002CC64 /* Coordinator.swift */; };
-		045D97C12B88D2D10002CC64 /* FriendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D97C02B88D2D10002CC64 /* FriendListView.swift */; };
-		045D97C32B88D2DC0002CC64 /* FriendListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D97C22B88D2DC0002CC64 /* FriendListViewModel.swift */; };
-		045D97C52B88D2EF0002CC64 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D97C42B88D2EF0002CC64 /* FriendModel.swift */; };
-		045D97C72B88D32C0002CC64 /* FriendDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D97C62B88D32C0002CC64 /* FriendDataService.swift */; };
-		047F288E2B8C5B0E008A5633 /* AppUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F288D2B8C5B0E008A5633 /* AppUserModel.swift */; };
-		047F28902B8C5B36008A5633 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F288F2B8C5B36008A5633 /* LoginViewModel.swift */; };
-		047F28922B8C5B4D008A5633 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F28912B8C5B4D008A5633 /* LoginView.swift */; };
-		047F28982B8C5FB8008A5633 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F28972B8C5FB8008A5633 /* ProfileView.swift */; };
-		047F289A2B8C6188008A5633 /* UserProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F28992B8C6188008A5633 /* UserProtocol.swift */; };
-		047F289F2B8C7167008A5633 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F289E2B8C7167008A5633 /* SettingsView.swift */; };
-		047F28A32B8CA260008A5633 /* AppCoordinatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F28A22B8CA260008A5633 /* AppCoordinatorViewModel.swift */; };
-		047F28A52B8CB571008A5633 /* ProfileViewModel-NA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F28A42B8CB571008A5633 /* ProfileViewModel-NA.swift */; };
-		047F28A72B8CB9DB008A5633 /* UserDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F28A62B8CB9DB008A5633 /* UserDetailModel.swift */; };
+		045D97A12B8875920002CC64 /* RouterPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D97A02B8875920002CC64 /* RouterPatternTests.swift */; };
+		045D97AB2B8875920002CC64 /* RouterPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D97AA2B8875920002CC64 /* RouterPatternUITests.swift */; };
+		045D97AD2B8875920002CC64 /* RouterPatternUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D97AC2B8875920002CC64 /* RouterPatternUITestsLaunchTests.swift */; };
+		04D4467C2B8DEE9900F27D6F /* UserProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D446682B8DEE9900F27D6F /* UserProtocol.swift */; };
+		04D4467D2B8DEE9900F27D6F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D446692B8DEE9900F27D6F /* ProfileView.swift */; };
+		04D4467E2B8DEE9900F27D6F /* ProfileViewModel-NA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4466A2B8DEE9900F27D6F /* ProfileViewModel-NA.swift */; };
+		04D4467F2B8DEE9900F27D6F /* Coordinator copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4466C2B8DEE9900F27D6F /* Coordinator copy.swift */; };
+		04D446802B8DEE9900F27D6F /* AppCoordinatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4466D2B8DEE9900F27D6F /* AppCoordinatorViewModel.swift */; };
+		04D446812B8DEE9900F27D6F /* AppCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4466E2B8DEE9900F27D6F /* AppCoordinatorView.swift */; };
+		04D446822B8DEE9900F27D6F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4466F2B8DEE9900F27D6F /* Coordinator.swift */; };
+		04D446832B8DEE9900F27D6F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D446712B8DEE9900F27D6F /* LoginViewModel.swift */; };
+		04D446842B8DEE9900F27D6F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D446722B8DEE9900F27D6F /* LoginView.swift */; };
+		04D446852B8DEE9900F27D6F /* AppUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D446732B8DEE9900F27D6F /* AppUserModel.swift */; };
+		04D446862B8DEE9900F27D6F /* UserDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D446742B8DEE9900F27D6F /* UserDetailModel.swift */; };
+		04D446872B8DEE9900F27D6F /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D446762B8DEE9900F27D6F /* FriendModel.swift */; };
+		04D446882B8DEE9900F27D6F /* FriendDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D446772B8DEE9900F27D6F /* FriendDataService.swift */; };
+		04D446892B8DEE9900F27D6F /* FriendListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D446782B8DEE9900F27D6F /* FriendListView.swift */; };
+		04D4468A2B8DEE9900F27D6F /* FriendListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D446792B8DEE9900F27D6F /* FriendListViewModel.swift */; };
+		04D4468B2B8DEE9900F27D6F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4467B2B8DEE9900F27D6F /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,31 +49,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		045D978B2B8875900002CC64 /* CoorinatorPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoorinatorPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		045D978E2B8875900002CC64 /* CoorinatorPatternApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoorinatorPatternApp.swift; sourceTree = "<group>"; };
-		045D97902B8875900002CC64 /* AppCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorView.swift; sourceTree = "<group>"; };
+		045D978B2B8875900002CC64 /* RouterPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouterPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		045D978E2B8875900002CC64 /* RouterPatternApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterPatternApp.swift; sourceTree = "<group>"; };
 		045D97922B8875910002CC64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		045D97942B8875910002CC64 /* CoorinatorPattern.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoorinatorPattern.entitlements; sourceTree = "<group>"; };
+		045D97942B8875910002CC64 /* RouterPattern.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RouterPattern.entitlements; sourceTree = "<group>"; };
 		045D97962B8875910002CC64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		045D979C2B8875920002CC64 /* CoorinatorPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoorinatorPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		045D97A02B8875920002CC64 /* CoorinatorPatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoorinatorPatternTests.swift; sourceTree = "<group>"; };
-		045D97A62B8875920002CC64 /* CoorinatorPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoorinatorPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		045D97AA2B8875920002CC64 /* CoorinatorPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoorinatorPatternUITests.swift; sourceTree = "<group>"; };
-		045D97AC2B8875920002CC64 /* CoorinatorPatternUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoorinatorPatternUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		045D97BD2B88CFE40002CC64 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		045D97C02B88D2D10002CC64 /* FriendListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListView.swift; sourceTree = "<group>"; };
-		045D97C22B88D2DC0002CC64 /* FriendListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewModel.swift; sourceTree = "<group>"; };
-		045D97C42B88D2EF0002CC64 /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
-		045D97C62B88D32C0002CC64 /* FriendDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDataService.swift; sourceTree = "<group>"; };
-		047F288D2B8C5B0E008A5633 /* AppUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserModel.swift; sourceTree = "<group>"; };
-		047F288F2B8C5B36008A5633 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		047F28912B8C5B4D008A5633 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		047F28972B8C5FB8008A5633 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		047F28992B8C6188008A5633 /* UserProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProtocol.swift; sourceTree = "<group>"; };
-		047F289E2B8C7167008A5633 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		047F28A22B8CA260008A5633 /* AppCoordinatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorViewModel.swift; sourceTree = "<group>"; };
-		047F28A42B8CB571008A5633 /* ProfileViewModel-NA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileViewModel-NA.swift"; sourceTree = "<group>"; };
-		047F28A62B8CB9DB008A5633 /* UserDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailModel.swift; sourceTree = "<group>"; };
+		045D979C2B8875920002CC64 /* RouterPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouterPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		045D97A02B8875920002CC64 /* RouterPatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterPatternTests.swift; sourceTree = "<group>"; };
+		045D97A62B8875920002CC64 /* RouterPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouterPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		045D97AA2B8875920002CC64 /* RouterPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterPatternUITests.swift; sourceTree = "<group>"; };
+		045D97AC2B8875920002CC64 /* RouterPatternUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterPatternUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04D446682B8DEE9900F27D6F /* UserProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProtocol.swift; sourceTree = "<group>"; };
+		04D446692B8DEE9900F27D6F /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		04D4466A2B8DEE9900F27D6F /* ProfileViewModel-NA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ProfileViewModel-NA.swift"; sourceTree = "<group>"; };
+		04D4466C2B8DEE9900F27D6F /* Coordinator copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Coordinator copy.swift"; sourceTree = "<group>"; };
+		04D4466D2B8DEE9900F27D6F /* AppCoordinatorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinatorViewModel.swift; sourceTree = "<group>"; };
+		04D4466E2B8DEE9900F27D6F /* AppCoordinatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinatorView.swift; sourceTree = "<group>"; };
+		04D4466F2B8DEE9900F27D6F /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		04D446712B8DEE9900F27D6F /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		04D446722B8DEE9900F27D6F /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		04D446732B8DEE9900F27D6F /* AppUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUserModel.swift; sourceTree = "<group>"; };
+		04D446742B8DEE9900F27D6F /* UserDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailModel.swift; sourceTree = "<group>"; };
+		04D446762B8DEE9900F27D6F /* FriendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		04D446772B8DEE9900F27D6F /* FriendDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendDataService.swift; sourceTree = "<group>"; };
+		04D446782B8DEE9900F27D6F /* FriendListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListView.swift; sourceTree = "<group>"; };
+		04D446792B8DEE9900F27D6F /* FriendListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListViewModel.swift; sourceTree = "<group>"; };
+		04D4467B2B8DEE9900F27D6F /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +105,9 @@
 		045D97822B8875900002CC64 = {
 			isa = PBXGroup;
 			children = (
-				045D978D2B8875900002CC64 /* CoorinatorPattern */,
-				045D979F2B8875920002CC64 /* CoorinatorPatternTests */,
-				045D97A92B8875920002CC64 /* CoorinatorPatternUITests */,
+				045D978D2B8875900002CC64 /* RouterPattern */,
+				045D979F2B8875920002CC64 /* RouterPatternTests */,
+				045D97A92B8875920002CC64 /* RouterPatternUITests */,
 				045D978C2B8875900002CC64 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,27 +115,27 @@
 		045D978C2B8875900002CC64 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				045D978B2B8875900002CC64 /* CoorinatorPattern.app */,
-				045D979C2B8875920002CC64 /* CoorinatorPatternTests.xctest */,
-				045D97A62B8875920002CC64 /* CoorinatorPatternUITests.xctest */,
+				045D978B2B8875900002CC64 /* RouterPattern.app */,
+				045D979C2B8875920002CC64 /* RouterPatternTests.xctest */,
+				045D97A62B8875920002CC64 /* RouterPatternUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		045D978D2B8875900002CC64 /* CoorinatorPattern */ = {
+		045D978D2B8875900002CC64 /* RouterPattern */ = {
 			isa = PBXGroup;
 			children = (
-				045D978E2B8875900002CC64 /* CoorinatorPatternApp.swift */,
-				047F28932B8C5BED008A5633 /* RoutingModule */,
-				047F28962B8C5FA4008A5633 /* UserProfileModule */,
-				047F288C2B8C5AFC008A5633 /* LoginModule */,
-				045D97BF2B88D2A60002CC64 /* Friends */,
-				047F289D2B8C715D008A5633 /* Settings */,
+				045D978E2B8875900002CC64 /* RouterPatternApp.swift */,
+				04D446752B8DEE9900F27D6F /* FriendModule */,
+				04D446702B8DEE9900F27D6F /* LoginModule */,
+				04D4466B2B8DEE9900F27D6F /* RoutingModule */,
+				04D4467A2B8DEE9900F27D6F /* Settings */,
+				04D446672B8DEE9900F27D6F /* UserProfileModule */,
 				045D97922B8875910002CC64 /* Assets.xcassets */,
-				045D97942B8875910002CC64 /* CoorinatorPattern.entitlements */,
+				045D97942B8875910002CC64 /* RouterPattern.entitlements */,
 				045D97952B8875910002CC64 /* Preview Content */,
 			);
-			path = CoorinatorPattern;
+			path = RouterPattern;
 			sourceTree = "<group>";
 		};
 		045D97952B8875910002CC64 /* Preview Content */ = {
@@ -144,69 +146,70 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		045D979F2B8875920002CC64 /* CoorinatorPatternTests */ = {
+		045D979F2B8875920002CC64 /* RouterPatternTests */ = {
 			isa = PBXGroup;
 			children = (
-				045D97A02B8875920002CC64 /* CoorinatorPatternTests.swift */,
+				045D97A02B8875920002CC64 /* RouterPatternTests.swift */,
 			);
-			path = CoorinatorPatternTests;
+			path = RouterPatternTests;
 			sourceTree = "<group>";
 		};
-		045D97A92B8875920002CC64 /* CoorinatorPatternUITests */ = {
+		045D97A92B8875920002CC64 /* RouterPatternUITests */ = {
 			isa = PBXGroup;
 			children = (
-				045D97AA2B8875920002CC64 /* CoorinatorPatternUITests.swift */,
-				045D97AC2B8875920002CC64 /* CoorinatorPatternUITestsLaunchTests.swift */,
+				045D97AA2B8875920002CC64 /* RouterPatternUITests.swift */,
+				045D97AC2B8875920002CC64 /* RouterPatternUITestsLaunchTests.swift */,
 			);
-			path = CoorinatorPatternUITests;
+			path = RouterPatternUITests;
 			sourceTree = "<group>";
 		};
-		045D97BF2B88D2A60002CC64 /* Friends */ = {
+		04D446672B8DEE9900F27D6F /* UserProfileModule */ = {
 			isa = PBXGroup;
 			children = (
-				045D97C02B88D2D10002CC64 /* FriendListView.swift */,
-				045D97C22B88D2DC0002CC64 /* FriendListViewModel.swift */,
-				045D97C42B88D2EF0002CC64 /* FriendModel.swift */,
-				045D97C62B88D32C0002CC64 /* FriendDataService.swift */,
-			);
-			name = Friends;
-			sourceTree = "<group>";
-		};
-		047F288C2B8C5AFC008A5633 /* LoginModule */ = {
-			isa = PBXGroup;
-			children = (
-				047F288D2B8C5B0E008A5633 /* AppUserModel.swift */,
-				047F28A62B8CB9DB008A5633 /* UserDetailModel.swift */,
-				047F288F2B8C5B36008A5633 /* LoginViewModel.swift */,
-				047F28912B8C5B4D008A5633 /* LoginView.swift */,
-			);
-			path = LoginModule;
-			sourceTree = "<group>";
-		};
-		047F28932B8C5BED008A5633 /* RoutingModule */ = {
-			isa = PBXGroup;
-			children = (
-				045D97BD2B88CFE40002CC64 /* Coordinator.swift */,
-				047F28A22B8CA260008A5633 /* AppCoordinatorViewModel.swift */,
-				045D97902B8875900002CC64 /* AppCoordinatorView.swift */,
-			);
-			path = RoutingModule;
-			sourceTree = "<group>";
-		};
-		047F28962B8C5FA4008A5633 /* UserProfileModule */ = {
-			isa = PBXGroup;
-			children = (
-				047F28992B8C6188008A5633 /* UserProtocol.swift */,
-				047F28972B8C5FB8008A5633 /* ProfileView.swift */,
-				047F28A42B8CB571008A5633 /* ProfileViewModel-NA.swift */,
+				04D446682B8DEE9900F27D6F /* UserProtocol.swift */,
+				04D446692B8DEE9900F27D6F /* ProfileView.swift */,
+				04D4466A2B8DEE9900F27D6F /* ProfileViewModel-NA.swift */,
 			);
 			path = UserProfileModule;
 			sourceTree = "<group>";
 		};
-		047F289D2B8C715D008A5633 /* Settings */ = {
+		04D4466B2B8DEE9900F27D6F /* RoutingModule */ = {
 			isa = PBXGroup;
 			children = (
-				047F289E2B8C7167008A5633 /* SettingsView.swift */,
+				04D4466C2B8DEE9900F27D6F /* Coordinator copy.swift */,
+				04D4466D2B8DEE9900F27D6F /* AppCoordinatorViewModel.swift */,
+				04D4466E2B8DEE9900F27D6F /* AppCoordinatorView.swift */,
+				04D4466F2B8DEE9900F27D6F /* Coordinator.swift */,
+			);
+			path = RoutingModule;
+			sourceTree = "<group>";
+		};
+		04D446702B8DEE9900F27D6F /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				04D446712B8DEE9900F27D6F /* LoginViewModel.swift */,
+				04D446722B8DEE9900F27D6F /* LoginView.swift */,
+				04D446732B8DEE9900F27D6F /* AppUserModel.swift */,
+				04D446742B8DEE9900F27D6F /* UserDetailModel.swift */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		04D446752B8DEE9900F27D6F /* FriendModule */ = {
+			isa = PBXGroup;
+			children = (
+				04D446762B8DEE9900F27D6F /* FriendModel.swift */,
+				04D446772B8DEE9900F27D6F /* FriendDataService.swift */,
+				04D446782B8DEE9900F27D6F /* FriendListView.swift */,
+				04D446792B8DEE9900F27D6F /* FriendListViewModel.swift */,
+			);
+			path = FriendModule;
+			sourceTree = "<group>";
+		};
+		04D4467A2B8DEE9900F27D6F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				04D4467B2B8DEE9900F27D6F /* SettingsView.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -214,9 +217,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		045D978A2B8875900002CC64 /* CoorinatorPattern */ = {
+		045D978A2B8875900002CC64 /* RouterPattern */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 045D97B02B8875920002CC64 /* Build configuration list for PBXNativeTarget "CoorinatorPattern" */;
+			buildConfigurationList = 045D97B02B8875920002CC64 /* Build configuration list for PBXNativeTarget "RouterPattern" */;
 			buildPhases = (
 				045D97872B8875900002CC64 /* Sources */,
 				045D97882B8875900002CC64 /* Frameworks */,
@@ -226,14 +229,14 @@
 			);
 			dependencies = (
 			);
-			name = CoorinatorPattern;
+			name = RouterPattern;
 			productName = CoorinatorPattern;
-			productReference = 045D978B2B8875900002CC64 /* CoorinatorPattern.app */;
+			productReference = 045D978B2B8875900002CC64 /* RouterPattern.app */;
 			productType = "com.apple.product-type.application";
 		};
-		045D979B2B8875920002CC64 /* CoorinatorPatternTests */ = {
+		045D979B2B8875920002CC64 /* RouterPatternTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 045D97B32B8875920002CC64 /* Build configuration list for PBXNativeTarget "CoorinatorPatternTests" */;
+			buildConfigurationList = 045D97B32B8875920002CC64 /* Build configuration list for PBXNativeTarget "RouterPatternTests" */;
 			buildPhases = (
 				045D97982B8875920002CC64 /* Sources */,
 				045D97992B8875920002CC64 /* Frameworks */,
@@ -244,14 +247,14 @@
 			dependencies = (
 				045D979E2B8875920002CC64 /* PBXTargetDependency */,
 			);
-			name = CoorinatorPatternTests;
+			name = RouterPatternTests;
 			productName = CoorinatorPatternTests;
-			productReference = 045D979C2B8875920002CC64 /* CoorinatorPatternTests.xctest */;
+			productReference = 045D979C2B8875920002CC64 /* RouterPatternTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		045D97A52B8875920002CC64 /* CoorinatorPatternUITests */ = {
+		045D97A52B8875920002CC64 /* RouterPatternUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 045D97B62B8875920002CC64 /* Build configuration list for PBXNativeTarget "CoorinatorPatternUITests" */;
+			buildConfigurationList = 045D97B62B8875920002CC64 /* Build configuration list for PBXNativeTarget "RouterPatternUITests" */;
 			buildPhases = (
 				045D97A22B8875920002CC64 /* Sources */,
 				045D97A32B8875920002CC64 /* Frameworks */,
@@ -262,9 +265,9 @@
 			dependencies = (
 				045D97A82B8875920002CC64 /* PBXTargetDependency */,
 			);
-			name = CoorinatorPatternUITests;
+			name = RouterPatternUITests;
 			productName = CoorinatorPatternUITests;
-			productReference = 045D97A62B8875920002CC64 /* CoorinatorPatternUITests.xctest */;
+			productReference = 045D97A62B8875920002CC64 /* RouterPatternUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -290,7 +293,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 045D97862B8875900002CC64 /* Build configuration list for PBXProject "CoorinatorPattern" */;
+			buildConfigurationList = 045D97862B8875900002CC64 /* Build configuration list for PBXProject "RouterPattern" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -303,9 +306,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				045D978A2B8875900002CC64 /* CoorinatorPattern */,
-				045D979B2B8875920002CC64 /* CoorinatorPatternTests */,
-				045D97A52B8875920002CC64 /* CoorinatorPatternUITests */,
+				045D978A2B8875900002CC64 /* RouterPattern */,
+				045D979B2B8875920002CC64 /* RouterPatternTests */,
+				045D97A52B8875920002CC64 /* RouterPatternUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -341,22 +344,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045D97912B8875900002CC64 /* AppCoordinatorView.swift in Sources */,
-				045D97C72B88D32C0002CC64 /* FriendDataService.swift in Sources */,
-				045D97C52B88D2EF0002CC64 /* FriendModel.swift in Sources */,
-				047F28982B8C5FB8008A5633 /* ProfileView.swift in Sources */,
-				047F28A72B8CB9DB008A5633 /* UserDetailModel.swift in Sources */,
-				045D978F2B8875900002CC64 /* CoorinatorPatternApp.swift in Sources */,
-				045D97C12B88D2D10002CC64 /* FriendListView.swift in Sources */,
-				047F289F2B8C7167008A5633 /* SettingsView.swift in Sources */,
-				045D97BE2B88CFE40002CC64 /* Coordinator.swift in Sources */,
-				047F289A2B8C6188008A5633 /* UserProtocol.swift in Sources */,
-				047F28A32B8CA260008A5633 /* AppCoordinatorViewModel.swift in Sources */,
-				047F288E2B8C5B0E008A5633 /* AppUserModel.swift in Sources */,
-				045D97C32B88D2DC0002CC64 /* FriendListViewModel.swift in Sources */,
-				047F28922B8C5B4D008A5633 /* LoginView.swift in Sources */,
-				047F28A52B8CB571008A5633 /* ProfileViewModel-NA.swift in Sources */,
-				047F28902B8C5B36008A5633 /* LoginViewModel.swift in Sources */,
+				04D446822B8DEE9900F27D6F /* Coordinator.swift in Sources */,
+				04D446882B8DEE9900F27D6F /* FriendDataService.swift in Sources */,
+				04D446812B8DEE9900F27D6F /* AppCoordinatorView.swift in Sources */,
+				04D4467C2B8DEE9900F27D6F /* UserProtocol.swift in Sources */,
+				04D4468A2B8DEE9900F27D6F /* FriendListViewModel.swift in Sources */,
+				04D4468B2B8DEE9900F27D6F /* SettingsView.swift in Sources */,
+				04D4467E2B8DEE9900F27D6F /* ProfileViewModel-NA.swift in Sources */,
+				04D4467D2B8DEE9900F27D6F /* ProfileView.swift in Sources */,
+				04D446802B8DEE9900F27D6F /* AppCoordinatorViewModel.swift in Sources */,
+				04D4467F2B8DEE9900F27D6F /* Coordinator copy.swift in Sources */,
+				04D446872B8DEE9900F27D6F /* FriendModel.swift in Sources */,
+				04D446862B8DEE9900F27D6F /* UserDetailModel.swift in Sources */,
+				04D446852B8DEE9900F27D6F /* AppUserModel.swift in Sources */,
+				045D978F2B8875900002CC64 /* RouterPatternApp.swift in Sources */,
+				04D446842B8DEE9900F27D6F /* LoginView.swift in Sources */,
+				04D446832B8DEE9900F27D6F /* LoginViewModel.swift in Sources */,
+				04D446892B8DEE9900F27D6F /* FriendListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045D97A12B8875920002CC64 /* CoorinatorPatternTests.swift in Sources */,
+				045D97A12B8875920002CC64 /* RouterPatternTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,8 +376,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045D97AB2B8875920002CC64 /* CoorinatorPatternUITests.swift in Sources */,
-				045D97AD2B8875920002CC64 /* CoorinatorPatternUITestsLaunchTests.swift in Sources */,
+				045D97AB2B8875920002CC64 /* RouterPatternUITests.swift in Sources */,
+				045D97AD2B8875920002CC64 /* RouterPatternUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,12 +386,12 @@
 /* Begin PBXTargetDependency section */
 		045D979E2B8875920002CC64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 045D978A2B8875900002CC64 /* CoorinatorPattern */;
+			target = 045D978A2B8875900002CC64 /* RouterPattern */;
 			targetProxy = 045D979D2B8875920002CC64 /* PBXContainerItemProxy */;
 		};
 		045D97A82B8875920002CC64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 045D978A2B8875900002CC64 /* CoorinatorPattern */;
+			target = 045D978A2B8875900002CC64 /* RouterPattern */;
 			targetProxy = 045D97A72B8875920002CC64 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -512,10 +516,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CoorinatorPattern/CoorinatorPattern.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = RouterPattern/RouterPattern.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CoorinatorPattern/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RouterPattern/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -533,8 +538,9 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.smartsense.CoorinatorPattern;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartsense.RouterPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -548,10 +554,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CoorinatorPattern/CoorinatorPattern.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = RouterPattern/RouterPattern.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CoorinatorPattern/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RouterPattern/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -569,8 +576,9 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.smartsense.CoorinatorPattern;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartsense.RouterPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -584,20 +592,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.smartsense.CoorinatorPatternTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartsense.RouterPatternTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoorinatorPattern.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoorinatorPattern";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RouterPattern.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RouterPattern";
 			};
 			name = Debug;
 		};
@@ -606,20 +616,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.smartsense.CoorinatorPatternTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartsense.RouterPatternTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoorinatorPattern.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoorinatorPattern";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RouterPattern.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RouterPattern";
 			};
 			name = Release;
 		};
@@ -627,20 +639,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.smartsense.CoorinatorPatternUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartsense.RouterPatternUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CoorinatorPattern;
+				TEST_TARGET_NAME = RouterPattern;
 			};
 			name = Debug;
 		};
@@ -648,27 +662,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.smartsense.CoorinatorPatternUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartsense.RouterPatternUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CoorinatorPattern;
+				TEST_TARGET_NAME = RouterPattern;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		045D97862B8875900002CC64 /* Build configuration list for PBXProject "CoorinatorPattern" */ = {
+		045D97862B8875900002CC64 /* Build configuration list for PBXProject "RouterPattern" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				045D97AE2B8875920002CC64 /* Debug */,
@@ -677,7 +693,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		045D97B02B8875920002CC64 /* Build configuration list for PBXNativeTarget "CoorinatorPattern" */ = {
+		045D97B02B8875920002CC64 /* Build configuration list for PBXNativeTarget "RouterPattern" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				045D97B12B8875920002CC64 /* Debug */,
@@ -686,7 +702,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		045D97B32B8875920002CC64 /* Build configuration list for PBXNativeTarget "CoorinatorPatternTests" */ = {
+		045D97B32B8875920002CC64 /* Build configuration list for PBXNativeTarget "RouterPatternTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				045D97B42B8875920002CC64 /* Debug */,
@@ -695,7 +711,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		045D97B62B8875920002CC64 /* Build configuration list for PBXNativeTarget "CoorinatorPatternUITests" */ = {
+		045D97B62B8875920002CC64 /* Build configuration list for PBXNativeTarget "RouterPatternUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				045D97B72B8875920002CC64 /* Debug */,
