@@ -9,12 +9,12 @@ import Foundation
 import SwiftUI
 
 struct SettingsView : View{
-    @EnvironmentObject var coordinator : Coordinator
+    @EnvironmentObject var router : Router
     var body: some View{
         VStack{
             Text("Settings Screen")
             Button("Go Back"){
-                coordinator.goToLoginScreen()
+                router.goToLoginScreen()
             }
         }
     }

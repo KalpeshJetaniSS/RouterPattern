@@ -1,5 +1,5 @@
 //
-//  CoorinatorPatternApp.swift
+//  RouterPatternApp.swift
 //  CoorinatorPattern
 //
 //  Created by Kalpesh on 23/02/24.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 //@main
-//struct CoorinatorPatternApp: App {
+//struct RouterPatternApp: App {
 //    var body: some Scene {
 //        WindowGroup {
 //            ContentView()
@@ -19,13 +19,13 @@ import SwiftUI
 // Entry point of the app
 @main
 struct MyApp: App {
-    @StateObject var appCoordinator = AppCoordinatorViewModel()
+    @StateObject var appRouter = AppRouterViewModel()
 
     var body: some Scene {
         WindowGroup {
-            AppCoordinatorView()
-                .environmentObject(appCoordinator.coordinator)
-                .environmentObject(appCoordinator.loginViewModel)
+            AppRouterView()
+                .environmentObject(appRouter.router)
+                .environmentObject(appRouter.loginViewModel)
         }
     }
 }

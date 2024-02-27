@@ -11,14 +11,14 @@ import SwiftUI
 // Friend screen
 //struct FriendView: View {
 //    @EnvironmentObject var viewModel: FriendListViewModel
-//    @EnvironmentObject var coordinator: Coordinator
+//    @EnvironmentObject var router: Router
 //
 //    var body: some View {
 //        VStack {
 //            Text("Friend Screen")
 //            Button("Logout") {
 //                // Perform logout logic here
-//                coordinator.currentScreen = .login
+//                router.currentScreen = .login
 //            }
 //        }
 //    }
@@ -27,7 +27,7 @@ import SwiftUI
 // Main view displaying the current screen
 struct FriendListView: View {
     let user : UserProtocol
-    @EnvironmentObject var coordinator: Coordinator
+    @EnvironmentObject var router: Router
     @StateObject var viewModel : FriendListViewModel
     
     var body: some View {

@@ -1,5 +1,5 @@
 //
-//  Coordinator.swift
+//  Router.swift
 //  CoorinatorPattern
 //
 //  Created by Kalpesh on 23/02/24.
@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-class Coordinator: ObservableObject {
+class Router: ObservableObject {
     
     // Enum to represent different screens
     enum Screen {

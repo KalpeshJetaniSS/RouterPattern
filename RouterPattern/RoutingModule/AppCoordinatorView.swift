@@ -26,13 +26,13 @@
 import SwiftUI
 
 // Main view displaying the current screen
-struct AppCoordinatorView: View {
-    @EnvironmentObject var coordinator: Coordinator
+struct AppRouterView: View {
+    @EnvironmentObject var router: Router
     @EnvironmentObject var loginViewModel : LoginViewModel
     
     var body: some View {
         ZStack{
-            switch coordinator.currentScreen{
+            switch router.currentScreen{
             case .login:
                 LoginView(viewModel: loginViewModel)
             case .friendList(let user):

@@ -11,11 +11,11 @@ import Combine
 // ViewModel for App
 class LoginViewModel: ObservableObject {
     
-    weak var coordinator : Coordinator?
+    weak var router : Router?
     
     private var cancellable =  Set<AnyCancellable>()
-    init(coordinator: Coordinator) {
-        self.coordinator = coordinator
+    init(router: Router) {
+        self.router = router
     }
     
     func loginWithUserName(userName : String, password: String){
@@ -35,7 +35,7 @@ class LoginViewModel: ObservableObject {
     
     func processWithUser(user: UserProtocol?){
         if let user = user{
-            coordinator?.goToFriendList(user)
+            router?.goToFriendList(user)
         }else {
             fatalError("invalid user...")
         }

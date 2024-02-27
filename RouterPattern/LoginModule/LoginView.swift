@@ -12,7 +12,7 @@ import SwiftUI
 struct LoginView: View {
     
     @ObservedObject var viewModel: LoginViewModel
-    @EnvironmentObject var coordinator: Coordinator
+    @EnvironmentObject var router: Router
 
     @State var username : String = ""
     @State var password : String = ""

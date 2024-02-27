@@ -10,12 +10,12 @@ import SwiftUI
 
 struct ProfileView :View {
     @EnvironmentObject var loginViewModel : LoginViewModel
-    @EnvironmentObject var coordinator : Coordinator
+    @EnvironmentObject var router : Router
     var user : UserProtocol
     var body: some View{
         Button("Go Back") {
             //Perform Navigation Back Action
-            coordinator.goToLoginScreen()
+            router.goToLoginScreen()
         }
     }
 }
