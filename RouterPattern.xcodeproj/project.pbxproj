@@ -19,7 +19,7 @@
 		04D4467F2B8DEE9900F27D6F /* Coordinator copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4466C2B8DEE9900F27D6F /* Coordinator copy.swift */; };
 		04D446802B8DEE9900F27D6F /* AppCoordinatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4466D2B8DEE9900F27D6F /* AppCoordinatorViewModel.swift */; };
 		04D446812B8DEE9900F27D6F /* AppCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4466E2B8DEE9900F27D6F /* AppCoordinatorView.swift */; };
-		04D446822B8DEE9900F27D6F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4466F2B8DEE9900F27D6F /* Coordinator.swift */; };
+		04D446822B8DEE9900F27D6F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4466F2B8DEE9900F27D6F /* Router.swift */; };
 		04D446832B8DEE9900F27D6F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D446712B8DEE9900F27D6F /* LoginViewModel.swift */; };
 		04D446842B8DEE9900F27D6F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D446722B8DEE9900F27D6F /* LoginView.swift */; };
 		04D446852B8DEE9900F27D6F /* AppUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D446732B8DEE9900F27D6F /* AppUserModel.swift */; };
@@ -65,7 +65,7 @@
 		04D4466C2B8DEE9900F27D6F /* Coordinator copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Coordinator copy.swift"; sourceTree = "<group>"; };
 		04D4466D2B8DEE9900F27D6F /* AppCoordinatorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinatorViewModel.swift; sourceTree = "<group>"; };
 		04D4466E2B8DEE9900F27D6F /* AppCoordinatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinatorView.swift; sourceTree = "<group>"; };
-		04D4466F2B8DEE9900F27D6F /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		04D4466F2B8DEE9900F27D6F /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		04D446712B8DEE9900F27D6F /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		04D446722B8DEE9900F27D6F /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		04D446732B8DEE9900F27D6F /* AppUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUserModel.swift; sourceTree = "<group>"; };
@@ -126,11 +126,11 @@
 			isa = PBXGroup;
 			children = (
 				045D978E2B8875900002CC64 /* RouterPatternApp.swift */,
-				04D446752B8DEE9900F27D6F /* FriendModule */,
 				04D446702B8DEE9900F27D6F /* LoginModule */,
 				04D4466B2B8DEE9900F27D6F /* RoutingModule */,
 				04D4467A2B8DEE9900F27D6F /* Settings */,
 				04D446672B8DEE9900F27D6F /* UserProfileModule */,
+				04D446752B8DEE9900F27D6F /* FriendModule */,
 				045D97922B8875910002CC64 /* Assets.xcassets */,
 				045D97942B8875910002CC64 /* RouterPattern.entitlements */,
 				045D97952B8875910002CC64 /* Preview Content */,
@@ -179,7 +179,7 @@
 				04D4466C2B8DEE9900F27D6F /* Coordinator copy.swift */,
 				04D4466D2B8DEE9900F27D6F /* AppCoordinatorViewModel.swift */,
 				04D4466E2B8DEE9900F27D6F /* AppCoordinatorView.swift */,
-				04D4466F2B8DEE9900F27D6F /* Coordinator.swift */,
+				04D4466F2B8DEE9900F27D6F /* Router.swift */,
 			);
 			path = RoutingModule;
 			sourceTree = "<group>";
@@ -344,7 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D446822B8DEE9900F27D6F /* Coordinator.swift in Sources */,
+				04D446822B8DEE9900F27D6F /* Router.swift in Sources */,
 				04D446882B8DEE9900F27D6F /* FriendDataService.swift in Sources */,
 				04D446812B8DEE9900F27D6F /* AppCoordinatorView.swift in Sources */,
 				04D4467C2B8DEE9900F27D6F /* UserProtocol.swift in Sources */,

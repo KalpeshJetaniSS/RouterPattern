@@ -7,16 +7,6 @@
 
 import SwiftUI
 
-//@main
-//struct RouterPatternApp: App {
-//    var body: some Scene {
-//        WindowGroup {
-//            ContentView()
-//        }
-//    }
-//}
-
-// Entry point of the app
 @main
 struct MyApp: App {
     @StateObject var appRouter = AppRouterViewModel()
