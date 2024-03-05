@@ -128,7 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				045D978E2B8875900002CC64 /* RouterPatternApp.swift */,
-				0478B22D2B96F47F001FC1BC /* DataServices */,
+				0478B2302B96FCEF001FC1BC /* DataServices */,
 				04D446702B8DEE9900F27D6F /* LoginModule */,
 				04D4466B2B8DEE9900F27D6F /* RoutingModule */,
 				04D4467A2B8DEE9900F27D6F /* Settings */,
@@ -166,12 +166,12 @@
 			path = RouterPatternUITests;
 			sourceTree = "<group>";
 		};
-		0478B22D2B96F47F001FC1BC /* DataServices */ = {
+		0478B2302B96FCEF001FC1BC /* DataServices */ = {
 			isa = PBXGroup;
 			children = (
 				0478B22E2B96F4AF001FC1BC /* UserDataService.swift */,
 			);
-			name = DataServices;
+			path = DataServices;
 			sourceTree = "<group>";
 		};
 		04D446672B8DEE9900F27D6F /* UserProfileModule */ = {
