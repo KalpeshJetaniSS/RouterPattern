@@ -8,32 +8,26 @@
 import Foundation
 import Combine
 
+protocol UserDataHandlerProtocol:AnyObject {
+    func processUserData(user: UserProtocol?)
+}
+
 // ViewModel for App
-class LoginViewModel: ObservableObject {
+class LoginViewModel: ObservableObject, UserDataHandlerProtocol {
     
     weak var router : Router?
+    private var dataService : UserDataService?
     
-    private var cancellable =  Set<AnyCancellable>()
     init(router: Router) {
         self.router = router
+        dataService = UserDataService(delegate: self)
     }
     
     func loginWithUserName(userName : String, password: String){
-        let urlSession = URLSession(configuration: URLSessionConfiguration.ephemeral)
-        let url = URL(string: "https://google.com")!
-        let urlRequest = URLRequest(url: url, cachePolicy: URLRequest.CachePolicy.useProtocolCachePolicy, timeoutInterval: TimeInterval(60))
-        URLSession.DataTaskPublisher(request: urlRequest, session: urlSession)
-            .receive(on: DispatchQueue.main)
-            .sink(receiveCompletion: { [weak self] result in
-                print("Result ==> \(result)")
-                self?.processWithUser(user: FriendDataService.userDB[0])
-            }, receiveValue: { [weak self] data in
-                self?.processWithUser(user: FriendDataService.userDB[0])
-            })
-            .store(in: &cancellable)
+        dataService?.loginWithUserName(userName: userName, password: password)
     }
     
-    func processWithUser(user: UserProtocol?){
+    func processUserData(user: UserProtocol?){
         if let user = user{
             router?.goToFriendList(user)
         }else {
